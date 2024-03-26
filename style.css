@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    font-family:"roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+
+/* This is the Header Section */
+header{
+
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+a  {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;   
+}
+
+.container{
+    padding: 20px 0;
+}
+.container{
+    /* max-width: 1200px; */
+    margin: 0px auto ;
+    background-color: #c2aeae;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    background-color: #312d6d;
+    text-align: center;
+
+}
+.logo{
+    font-size: 30px;
+    
+}
+
+ul a{   
+    color: white;;
+}
+
+.headernav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+ul a li{
+    border-bottom: transparent;
+    transition: 0.2s ease-in;
+}
+ul a li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+
+
+/* This is the Main Section */
+.main-section{
+    display: flex;
+    justify-content: center;
+    background-image: url(hero_image.png);
+    display: grid;
+    place-items: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+.main-section .middle{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 80px;
+    
+}
+ .main-section h1{
+    font-size: 80px;
+}
+.main-section h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* This is the Music Section */
+
+.music-section{
+    padding: top 50px; 
+    scroll-margin: 50px;
+}
+.musicontainer{
+    display: flex;
+    flex-direction: row;
+    height: 170vh;
+    background-color: #312d6d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.musicontainer p {
+    padding: 0px 80px;
+}
+/* .musicontainer h2{
+    margin: 10px 0px;
+
+}  */
+button{
+    padding: 10px 15px ;
+    background-color: red;
+    transition: 0.2s  ease-in;
+}
+
+.musicontainer p1{
+    font-weight: 100;
+}
+.musicontainer .ipadimage{
+    position: relative;
+}
+.aboutmusicontainer{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.aboutmusicontainer p{
+    padding: 0px 80px;
+    line-height: 1.5;
+}
+.buttonReadmore{
+    background-color: rgb(15, 0, 225);
+    color: white;
+}
+
+
+
+/* lowersection */
+.videocontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 80px;
+    gap: 30px;
+    color: white;
+   
+} 
+
+.videosection{
+    background-image: url(video.png);
+    display: grid;
+    min-height: 800px;
+    place-items: center;
+    text-align: center; 
+    color: white;
+
+}
+ .videosection .videoconatiner{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin-top: -400px;
+   margin-left: 80px ;
+   margin-right: 80px;
+} 
+.buttonRedeem{
+    padding: 10px 15px;
+    background-color: #0f07a5;
+    color: white;
+    display: flex;
+    
+}
+.giftcontainer{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 50px 10px;
+
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 50px;
+}
+
+
+
+/* Footer  Footer section  */
+.upperfootercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#312d6d;
+    padding: 20px;
+    color: white;
+}
+.upperfootercontainer h4 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-section .lastfooter{
+    background-color: #2012e6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.lastfooter span{
+    margin: 0px 10px;
+}
+.lastfooter a {
+    text-decoration: none;
+    color: white;
+}
